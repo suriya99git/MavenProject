@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Connection to the server]]>
+    </line>
+    <line>
+      <![CDATA[Connect the data]]>
+    </line>
+    <line>
+      <![CDATA[Login......]]>
+    </line>
+    <line>
+      <![CDATA[TestCase Executed]]>
+    </line>
+    <line>
+      <![CDATA[Logot.....]]>
+    </line>
+    <line>
+      <![CDATA[Disconnect the data]]>
+    </line>
+    <line>
+      <![CDATA[Disconnect to the server]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-14T11:55:38 IST" name="Default suite" finished-at="2024-01-14T11:55:47 IST" duration-ms="8633">
+    <groups>
+    </groups>
+    <test started-at="2024-01-14T11:55:38 IST" name="Default test" finished-at="2024-01-14T11:55:47 IST" duration-ms="8633">
+      <class name="fuctionalTesting.TC001_Test">
+        <test-method is-config="true" signature="connectServer()[pri:0, instance:fuctionalTesting.TC001_Test@3e694b3f]" started-at="2024-01-14T11:55:38 IST" name="connectServer" finished-at="2024-01-14T11:55:38 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connection to the server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectServer -->
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:fuctionalTesting.TC001_Test@3e694b3f]" started-at="2024-01-14T11:55:38 IST" name="connectDB" finished-at="2024-01-14T11:55:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connect the data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:fuctionalTesting.TC001_Test@3e694b3f]" started-at="2024-01-14T11:55:38 IST" name="lauchBrowser" finished-at="2024-01-14T11:55:43 IST" duration-ms="4945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:fuctionalTesting.TC001_Test@3e694b3f]" started-at="2024-01-14T11:55:44 IST" name="login" finished-at="2024-01-14T11:55:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login......]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:fuctionalTesting.TC001_Test@3e694b3f]" started-at="2024-01-14T11:55:44 IST" name="testCase" data-provider="data1" finished-at="2024-01-14T11:55:47 IST" duration-ms="2403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suriya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[johnson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jjj@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:fuctionalTesting.TC001_Test@3e694b3f]" started-at="2024-01-14T11:55:47 IST" name="logout" finished-at="2024-01-14T11:55:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logot.....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:fuctionalTesting.TC001_Test@3e694b3f]" started-at="2024-01-14T11:55:47 IST" name="closeBrowser" finished-at="2024-01-14T11:55:47 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:fuctionalTesting.TC001_Test@3e694b3f]" started-at="2024-01-14T11:55:47 IST" name="disconnectDB" finished-at="2024-01-14T11:55:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Disconnect the data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+        <test-method is-config="true" signature="disconnectServer()[pri:0, instance:fuctionalTesting.TC001_Test@3e694b3f]" started-at="2024-01-14T11:55:47 IST" name="disconnectServer" finished-at="2024-01-14T11:55:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Disconnect to the server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- disconnectServer -->
+      </class> <!-- fuctionalTesting.TC001_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
